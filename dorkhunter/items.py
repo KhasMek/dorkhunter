@@ -9,6 +9,8 @@ import scrapy
 
 
 class DorkhunterItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+    title = scrapy.Field()
+    date_added = scrapy.Field()
+    category = scrapy.Field()
+    summary = scrapy.Field()
+    direct_link = scrapy.Field()
